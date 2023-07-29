@@ -8,7 +8,7 @@ import retrofit2.http.GET
 
 interface Interface {
     @GET("agents")
-    suspend fun AgentsInterface(): Call<List<ValoAgents>>
+    fun AgentsInterface(): Call<ValoAgents>
     @GET("playercards")
     suspend fun CardsInterface(): Call<List<PlayerCards>>
 }
