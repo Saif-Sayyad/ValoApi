@@ -1,6 +1,6 @@
 package ValoAgents
 
 data class ValoAgents(
-    val `data`: List<Data>,
-    val status: Int
+    val status: Int,
+    val data: List<Data>
 )
